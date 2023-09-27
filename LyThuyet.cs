@@ -15,7 +15,7 @@ namespace tinhdiemTB
             DiemCK = 0;
             DiemTL = 0;
         }
-        public LyThuyet(float diemTL, float diemCK, string MaMon, string TenMon, int SoTC) : base(MaMon, TenMon, SoTC)
+        public LyThuyet(float DiemTL, float DiemCK, string MaMon, string TenMon, int SoTC) : base(MaMon, TenMon, SoTC)
         {
             this.DiemTL = DiemTL;
             this.DiemCK = DiemCK;
