@@ -18,7 +18,7 @@ namespace tinhdiemTB
         public LyThuyet(float DiemTL, float DiemCK, string MaMon, string TenMon, int SoTC) : base(MaMon, TenMon, SoTC)
         {
             this.DiemTL = DiemTL;
-            this.DiemCK = diemCK;
+            this.DiemCK = DiemCK;
         }
 
         public override float TinhDTB()
